@@ -7,9 +7,9 @@
 window.PORTFOLIO_CONFIG = {
   name: "Vedant",
   contactEmail: "vedantkhatpedit@gmail.com",
-  instagramUrl: "https://www.instagram.com/",
-  youtubeUrl: "https://www.youtube.com/",
-  linkedinUrl: "https://www.linkedin.com/",
+  instagramUrl: "https://www.instagram.com/7edant/",
+  youtubeUrl: "https://www.youtube.com/@7edant",
+  linkedinUrl: "https://www.linkedin.com/in/vedantkhatpe/",
   supabaseUrl: "",
   supabasePublishableKey: ""
 };

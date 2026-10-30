@@ -39,7 +39,7 @@
         if (url.pathname.startsWith("/shorts/")) id = url.pathname.split("/")[2] || "";
       }
       if (!/^[A-Za-z0-9_-]{11}$/.test(id)) return "";
-      return `https://youtu.be/T9k4iwJrXTo?si=azQbMvsFMg_gwFh0/embed/${id}?rel=0`;
+      return `https://www.youtube-nocookie.com/embed/${id}?rel=0`;
     } catch (_) {
       return "";
     }
