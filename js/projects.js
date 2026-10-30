@@ -15,10 +15,10 @@ window.PORTFOLIO_PROJECTS = [
     title: "Podcast Edit — Episode 01",
     category: "editing",
     categoryLabel: "VIDEO EDITING",
-    description: "A conversation-led podcast edit. Replace this description and add your published YouTube link.",
+    description: "A conversation-led podcast edit.",
     client: "PODCAST / YOUTUBE",
     year: "2026",
-    thumbnailUrl: "assets/images/Arz.jpg",
+    thumbnailUrl: "assets/images/Podcast.jpg",
     mediaType: "video",
     mediaUrl: "https://youtu.be/T9k4iwJrXTo?si=azQbMvsFMg_gwFh0",
     featured: true
@@ -31,9 +31,9 @@ window.PORTFOLIO_PROJECTS = [
     description: "A cinematic project built around composition, movement and natural light. Replace with your own work.",
     client: "SHORT FILM",
     year: "2026",
-    thumbnailUrl: "assets/images/project-film.svg",
+    thumbnailUrl: "assets/images/Short-film.jpg",
     mediaType: "video",
-    mediaUrl: "",
+    mediaUrl: "https://youtu.be/VzR6AJChNgQ?si=DYxs8dl4aNhghBQ2",
     featured: true
   },
   {
