@@ -18,7 +18,7 @@ window.PORTFOLIO_PROJECTS = [
     description: "A conversation-led podcast edit. Replace this description and add your published YouTube link.",
     client: "PODCAST / YOUTUBE",
     year: "2026",
-    thumbnailUrl: "assets/images/project-podcast.svg",
+    thumbnailUrl: "assets/images/Arz.jpg",
     mediaType: "video",
     mediaUrl: "https://youtu.be/T9k4iwJrXTo?si=azQbMvsFMg_gwFh0",
     featured: true
