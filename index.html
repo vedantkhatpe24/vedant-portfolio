@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10110f" />
+  <meta name="description" content="Portfolio of Vedant — video editor, cinematographer and graphic designer." />
+  <title>Vedant — Visual Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Vedant home">V<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#work">WORK</a>
+      <a href="#about">ABOUT</a>
+      <a href="#services">WHAT I DO</a>
+      <a href="#contact" class="nav-contact">LET'S TALK <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> INDEPENDENT CREATIVE · INDIA</p>
+        <h1>I MAKE<br /><span class="outline-text">IMAGES</span><br />MOVE<span class="accent-dot">.</span></h1>
+        <div class="hero-bottom">
+          <p class="hero-intro">I turn ideas into visual stories through<br class="desktop-break" /> editing, cinematography and design.</p>
+          <a class="text-link" href="#work">EXPLORE SELECTED WORK <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Abstract creative portfolio artwork">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-cross">✳</div>
+        <div class="art-index">VISUAL<br />STORIES<br /><span>001—026</span></div>
+        <div class="art-caption">EDITOR / CAMERA / DESIGN</div>
+        <div class="art-block block-one"></div>
+        <div class="art-block block-two"></div>
+        <div class="art-block block-three"></div>
+      </div>
+      <div class="hero-meta"><span>SCROLL TO EXPLORE</span><span>AVAILABLE FOR SELECT PROJECTS <i></i></span></div>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A FEW THINGS I'VE MADE</p>
+          <h2>SELECTED <span class="outline-text">WORK</span><span class="accent-dot">.</span></h2>
+        </div>
+        <p class="section-note">A collection of frames, edits<br />and visual experiments.</p>
+      </div>
+      <div class="filter-row" id="project-filters" aria-label="Filter projects">
+        <button class="filter-btn active" type="button" data-filter="all">ALL <span>—</span></button>
+        <button class="filter-btn" type="button" data-filter="editing">VIDEO EDITING</button>
+        <button class="filter-btn" type="button" data-filter="cinematography">CINEMATOGRAPHY</button>
+        <button class="filter-btn" type="button" data-filter="graphic-design">GRAPHIC DESIGN</button>
+        <button class="filter-btn" type="button" data-filter="photography">PHOTOGRAPHY</button>
+      </div>
+      <div class="project-grid" id="project-grid" aria-live="polite">
+        <p class="loading-message">Loading projects…</p>
+      </div>
+      <p class="grid-footnote">PROJECTS SHOWN HERE ARE STARTER EXAMPLES. REPLACE THEM WITH YOUR OWN WORK IN <code>js/projects.js</code>.</p>
+    </section>
+
+    <section class="statement-section">
+      <div class="section-wrap statement-inner">
+        <p class="eyebrow">THE WAY I SEE IT</p>
+        <p class="statement">Good visuals don't just <span>look good.</span><br />They make people <em>feel something.</em></p>
+        <div class="statement-mark">V—</div>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="section-heading">
+        <div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>BEHIND THE <span class="outline-text">FRAME</span><span class="accent-dot">.</span></h2></div>
+        <p class="section-note">The person behind<br />the pixels and cuts.</p>
+      </div>
+      <div class="about-layout">
+        <div class="portrait-placeholder">
+          <div class="portrait-frame-label">YOUR PORTRAIT GOES HERE</div>
+          <div class="portrait-monogram">V<span>.</span></div>
+          <div class="portrait-frame-index">ADD YOUR PHOTO<br />TO assets/images/profile.jpg</div>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">I'm Vedant — a visual creative working across video editing, cinematography and graphic design.</p>
+          <p class="body-copy">I enjoy shaping raw ideas into clear, engaging visual experiences. From the rhythm of a podcast edit to the atmosphere of a film frame or the details of a graphic, I care about the story behind the work.</p>
+          <p class="body-copy">This portfolio is a selection of projects, experiments and collaborations. Replace this introduction with your own background, experience and creative approach.</p>
+          <div class="about-tags"><span>STORYTELLING</span><span>VISUAL DIRECTION</span><span>DETAIL-ORIENTED</span></div>
+          <a class="text-link about-link" href="#contact">HAVE A PROJECT IN MIND? <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">WHAT I BRING TO A PROJECT</p><h2>MY <span class="outline-text">PRACTICE</span><span class="accent-dot">.</span></h2></div>
+          <p class="section-note">Three disciplines.<br />One visual mindset.</p>
+        </div>
+        <div class="service-list">
+          <article class="service-item"><span class="service-number">01</span><div><h3>VIDEO EDITING</h3><p>Podcasts, YouTube videos, short-form content, storytelling edits and post-production.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-item"><span class="service-number">02</span><div><h3>CINEMATOGRAPHY</h3><p>Visual storytelling, camera operation, shot composition, lighting and production.</p></div><span class="service-arrow">↗</span></article>
+          <article class="service-item"><span class="service-number">03</span><div><h3>GRAPHIC DESIGN</h3><p>Posters, thumbnails, social media creatives, layouts and visual identities.</p></div><span class="service-arrow">↗</span></article>
+        </div>
+        <div class="tools-line"><span class="eyebrow">TOOLS I WORK WITH</span><p>DaVinci Resolve <b>·</b> Adobe Photoshop <b>·</b> Illustrator <b>·</b> Premiere Pro <b>·</b> Camera & Lighting</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+      <h2>LET'S MAKE<br /><span class="outline-text">SOMETHING</span><br />MATTER<span class="accent-dot">.</span></h2>
+      <div class="contact-bottom">
+        <p>For collaborations, freelance projects<br />or just to talk about good work.</p>
+        <a class="contact-email" id="contact-email" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="wordmark footer-mark" href="#home">V<span>.</span></a>
+    <p>© <span id="year"></span> VEDANT. BUILT WITH INTENTION.</p>
+    <div class="social-links" id="social-links">
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YOUTUBE ↗</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-header"><span class="eyebrow">PROJECT PREVIEW</span><button id="dialog-close" class="dialog-close" type="button" aria-label="Close preview">✕</button></div>
+    <div class="dialog-media" id="dialog-media"></div>
+    <div class="dialog-info"><div><p class="eyebrow" id="dialog-category"></p><h3 id="dialog-title"></h3></div><p id="dialog-description"></p></div>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/config.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
