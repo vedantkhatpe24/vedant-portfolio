@@ -44,7 +44,7 @@ window.PORTFOLIO_PROJECTS = [
     description: "A sample graphic-design portfolio entry. Replace this card with a poster, campaign or brand project.",
     client: "ART DIRECTION",
     year: "2026",
-    thumbnailUrl: "assets/images/camp.jpg",
+    thumbnailUrl: "assets/images/Camp.jpg",
     mediaType: "image",
     mediaUrl: "assets/images/Camp.jpg",
     featured: false
@@ -59,7 +59,7 @@ window.PORTFOLIO_PROJECTS = [
     year: "2026",
     thumbnailUrl: "assets/images/xyz.jpg",
     mediaType: "image",
-    mediaUrl: "https://www.instagram.com/p/DQPFKAOCsrZ/",
+    mediaUrl: "assets/images/xyz.jpg",
     featured: false
   }
 ];
