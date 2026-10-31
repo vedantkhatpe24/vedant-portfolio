@@ -31,9 +31,9 @@ window.PORTFOLIO_PROJECTS = [
     description: "A cinematic project built around composition, movement and natural light. Replace with your own work.",
     client: "SHORT FILM",
     year: "2026",
-    thumbnailUrl: "assets/images/Short-film.jpg",
+    thumbnailUrl: "assets/images/abc.jpg",
     mediaType: "video",
-    mediaUrl: "https://youtu.be/VzR6AJChNgQ?si=DYxs8dl4aNhghBQ2",
+    mediaUrl: "https://www.instagram.com/p/DWtfJZCjCgd/",
     featured: true
   },
   {
@@ -44,9 +44,9 @@ window.PORTFOLIO_PROJECTS = [
     description: "A sample graphic-design portfolio entry. Replace this card with a poster, campaign or brand project.",
     client: "ART DIRECTION",
     year: "2026",
-    thumbnailUrl: "assets/images/project-design.svg",
+    thumbnailUrl: "assets/images/camp.jpg",
     mediaType: "image",
-    mediaUrl: "assets/images/project-design.svg",
+    mediaUrl: "assets/images/camp.jpg",
     featured: false
   },
   {
@@ -57,9 +57,9 @@ window.PORTFOLIO_PROJECTS = [
     description: "A sample photography entry. Replace the thumbnail and image URL with one of your photographs.",
     client: "PHOTO SERIES",
     year: "2026",
-    thumbnailUrl: "assets/images/project-photo.svg",
+    thumbnailUrl: "assets/images/xyz.jpg",
     mediaType: "image",
-    mediaUrl: "assets/images/project-photo.svg",
+    mediaUrl: "https://www.instagram.com/p/DQPFKAOCsrZ/",
     featured: false
   }
 ];
