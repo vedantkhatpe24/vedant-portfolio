@@ -33,7 +33,7 @@ window.PORTFOLIO_PROJECTS = [
     year: "2026",
     thumbnailUrl: "assets/images/abc.jpg",
     mediaType: "video",
-    mediaUrl: "https://www.instagram.com/p/DWtfJZCjCgd/",
+    mediaUrl: "https://www.youtube.com/watch?v=uuPh6_bKJ1U",
     featured: true
   },
   {
@@ -46,7 +46,7 @@ window.PORTFOLIO_PROJECTS = [
     year: "2026",
     thumbnailUrl: "assets/images/camp.jpg",
     mediaType: "image",
-    mediaUrl: "assets/images/camp.jpg",
+    mediaUrl: "assets/images/Camp.jpg",
     featured: false
   },
   {
